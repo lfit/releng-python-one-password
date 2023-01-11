@@ -1,0 +1,2 @@
+# Defines module dependencies
+click
