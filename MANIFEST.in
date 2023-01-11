@@ -1,0 +1,7 @@
+include AUTHORS
+include README.md
+include license-header.txt
+include requirements.txt
+include credentials.py
+include caching.py
+include tox.ini
