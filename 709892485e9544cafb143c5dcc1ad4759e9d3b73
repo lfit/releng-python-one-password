@@ -35,6 +35,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c103f008_296a1df4",
+        "filename": "setup.cfg",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0836d05a_2ca10c71",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "93eac3fd_816fb446",
@@ -48,6 +66,30 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Should not need this, just __name__",
+      "range": {
+        "startLine": 26,
+        "startChar": 24,
+        "endLine": 26,
+        "endChar": 49
+      },
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "514b7d7e_b21e5289",
+        "filename": "src/python_one_password/caching.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "93eac3fd_816fb446",
       "range": {
         "startLine": 26,
         "startChar": 24,
@@ -75,6 +117,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1fd7543c_44e85578",
+        "filename": "src/python_one_password/caching.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5d81727e_1730e149",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "41631dd7_3652d14b",
@@ -88,6 +148,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type check",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "afb0a538_35740273",
+        "filename": "src/python_one_password/caching.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "41631dd7_3652d14b",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -109,6 +187,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "07a02927_77ff2d80",
+        "filename": "src/python_one_password/caching.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f4f4cd52_3caf2d75",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f17f13e3_65c8cad5",
@@ -122,6 +218,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type check",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4d65c51_ba428b66",
+        "filename": "src/python_one_password/caching.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f17f13e3_65c8cad5",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -143,6 +257,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ba41612_3a51d9e8",
+        "filename": "src/python_one_password/caching.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bc7c32c5_60dc8533",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a7d3c062_f53f1fe1",
@@ -156,6 +288,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type check",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "862de3a2_5421012a",
+        "filename": "src/python_one_password/caching.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a7d3c062_f53f1fe1",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -177,6 +327,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dad8b8dc_315ce057",
+        "filename": "src/python_one_password/caching.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c71268e5_8fce9f4b",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "06d5bda8_3dcff904",
@@ -194,6 +362,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "09c2c19f_e73cc8dd",
+        "filename": "src/python_one_password/caching.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "06d5bda8_3dcff904",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2ebcebdf_0ca6df25",
@@ -207,6 +393,30 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "just __name__",
+      "range": {
+        "startLine": 30,
+        "startChar": 24,
+        "endLine": 30,
+        "endChar": 49
+      },
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce7f1a31_5e623592",
+        "filename": "src/python_one_password/credentials.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2ebcebdf_0ca6df25",
       "range": {
         "startLine": 30,
         "startChar": 24,
@@ -240,6 +450,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb766794_e6fb52fd",
+        "filename": "src/python_one_password/credentials.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f4b24b4e_f9e901fe",
+      "range": {
+        "startLine": 46,
+        "startChar": 22,
+        "endLine": 46,
+        "endChar": 31
+      },
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "070bd7cf_f475870b",
@@ -253,6 +487,30 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "If python 3.8 is target, this is invalid. You will need do the following:\n\nfrom typing import List\n\nAnd then use List[str] instead of list[str]",
+      "range": {
+        "startLine": 53,
+        "startChar": 22,
+        "endLine": 53,
+        "endChar": 31
+      },
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dbf3a53f_f77ffeac",
+        "filename": "src/python_one_password/credentials.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "070bd7cf_f475870b",
       "range": {
         "startLine": 53,
         "startChar": 22,
@@ -286,6 +544,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab17b946_fed7ff13",
+        "filename": "src/python_one_password/credentials.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c766a692_889809c2",
+      "range": {
+        "startLine": 122,
+        "startChar": 20,
+        "endLine": 122,
+        "endChar": 29
+      },
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "039a0904_e1da1854",
@@ -299,6 +581,30 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "If python 3.8 is target, this is invalid. You will need do the following:\n\nfrom typing import List\n\nAnd then use List[str] instead of list[str]",
+      "range": {
+        "startLine": 128,
+        "startChar": 21,
+        "endLine": 128,
+        "endChar": 30
+      },
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac64e1a6_69d06ca3",
+        "filename": "src/python_one_password/credentials.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "039a0904_e1da1854",
       "range": {
         "startLine": 128,
         "startChar": 21,
@@ -332,6 +638,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fcf54c62_1e33ed00",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d98ab65a_254765fe",
+      "range": {
+        "startLine": 35,
+        "startChar": 24,
+        "endLine": 35,
+        "endChar": 49
+      },
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f5d1ed86_f0708c9a",
@@ -345,6 +675,30 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "You should be using XDG_HOME ? from the xdg module",
+      "range": {
+        "startLine": 39,
+        "startChar": 11,
+        "endLine": 39,
+        "endChar": 34
+      },
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "805c1085_1032bcf8",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Doesn\u0027t seem to be particularly friendly to macOS and adds an additional external module dependency. Looking at the source code, they are using my current method to get the base directory:\nhttps://github.com/jleclanche/python-xdg/blob/master/xdg/basedir.py",
+      "parentUuid": "f5d1ed86_f0708c9a",
       "range": {
         "startLine": 39,
         "startChar": 11,
@@ -372,6 +726,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "173e63c6_79a1fbee",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8c4c96dd_5b4b2df7",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6ea7c778_b6fdbdb4",
@@ -385,6 +757,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type hints",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1911577d_01a4ed12",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6ea7c778_b6fdbdb4",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -406,6 +796,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d00a677_d65dc241",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df01abe1_975e8c82",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f9c86eb3_f7d6c018",
@@ -419,6 +827,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type hints",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f4c94e3_a5270cd9",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f9c86eb3_f7d6c018",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -440,6 +866,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "06f46cb2_87c1018f",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b184856d_dd745844",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b3d07828_b2f85a8a",
@@ -453,6 +897,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type hints",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67548e78_be234cb3",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b3d07828_b2f85a8a",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -474,6 +936,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c5f0725_4c13d04b",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f5dbe1ea_7ad583e4",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f03465ef_1cd70fa0",
@@ -487,6 +967,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type hints",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e28a098b_9ca74ce9",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f03465ef_1cd70fa0",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -508,6 +1006,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5483f3c_98553f15",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "412ee96f_b5efa680",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ebca589a_9cd61bf9",
@@ -521,6 +1037,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type hints",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47ac174f_60bc8659",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ebca589a_9cd61bf9",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -542,6 +1076,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0eec7946_ae90035b",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e2283e61_f44d2f8a",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3103b37e_60844fa3",
@@ -555,6 +1107,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type hints",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f9f89bb_b78903c2",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3103b37e_60844fa3",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -576,6 +1146,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5ba6a5b_e97fd86b",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "77b963f1_ee0dea9e",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "76d38231_46e57973",
@@ -589,6 +1177,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type hints",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8c69c07_c9700c88",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 316,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "76d38231_46e57973",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -610,6 +1216,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1430f37_e97f9592",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 328,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "beac7ffd_cefb62aa",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5967a5fc_5b7d60fb",
@@ -623,6 +1247,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type hints",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "def0d40a_a3bc2835",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 364,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5967a5fc_5b7d60fb",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -644,6 +1286,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f9a3850_c1603185",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 372,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "335f26e0_84301453",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6ccf6904_60061d4d",
@@ -657,6 +1317,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type hints",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "504f734a_d90a6ad1",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 387,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6ccf6904_60061d4d",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -678,6 +1356,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "99c79164_44703f81",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 393,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ef5e926f_f637337b",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "007ed620_442ac523",
@@ -691,6 +1387,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type hints",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dbb264f0_29891544",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 400,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "007ed620_442ac523",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -712,6 +1426,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e76a6473_bdfd9970",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 452,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3bc45274_99a85dd9",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "feae26b1_3bbccde2",
@@ -725,6 +1457,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type hints",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b958a2e_1ee51dee",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 464,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "feae26b1_3bbccde2",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -746,6 +1496,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4bb525d6_ab6f1ebb",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 470,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "559b08c2_4341a276",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b7fa592e_ecd4d37b",
@@ -759,6 +1527,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type hints",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a746800_f38fef75",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 481,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b7fa592e_ecd4d37b",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -780,6 +1566,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a901cb7_e5010367",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 517,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6762a3f2_68d19cc7",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3e5533d8_c126e1eb",
@@ -793,6 +1597,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type hints",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea607d7f_686285fe",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 523,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3e5533d8_c126e1eb",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -814,6 +1636,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "34fd67f3_dd7ad1a0",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 530,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "69275317_6b6576d2",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f8b6d4e2_e57d2522",
@@ -827,6 +1667,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type hints",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1aa778e_a2534980",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 539,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f8b6d4e2_e57d2522",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -848,6 +1706,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4eef0f89_9fd5f995",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 551,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "375806b7_2d019a24",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4c6a2ccb_dbf1c4fc",
@@ -861,6 +1737,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Type hints",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96e47706_ff75a197",
+        "filename": "src/python_one_password/functions.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 568,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4c6a2ccb_dbf1c4fc",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -888,6 +1782,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5fd4403a_bd86779b",
+        "filename": "src/python_one_password/tags.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "41473cf5_fdfd171c",
+      "range": {
+        "startLine": 56,
+        "startChar": 10,
+        "endLine": 56,
+        "endChar": 19
+      },
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4707984f_3249bcb6",
@@ -901,6 +1819,24 @@
       "writtenOn": "2023-02-22T15:28:29Z",
       "side": 1,
       "message": "Needs to be List not list for type hint",
+      "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2e7c933_19ca2115",
+        "filename": "src/python_one_password/tags.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-02-28T21:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4707984f_3249bcb6",
       "revId": "709892485e9544cafb143c5dcc1ad4759e9d3b73",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
