@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b86b91a4_a79315a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-04-20T11:19:06Z",
+      "side": 1,
+      "message": "Should have addressed all the comments on this one with the latest patch set. Have tested things are still working; looking at PyPI packaging next, but maybe this initial code drop can now be merged?",
+      "revId": "d446f929c2c9041676e5b8da11bd02120f7fe6c5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
