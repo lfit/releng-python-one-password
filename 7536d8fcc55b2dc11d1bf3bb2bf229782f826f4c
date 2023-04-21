@@ -1,0 +1,8 @@
+Verified+1: LFIT GitHub-Gerrit <releng+github-lfit-gerrit@linuxfoundation.org>
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Code-Review+2: Matthew Watkins <mwatkins@linuxfoundation.org>
+Submitted-by: Matthew Watkins <mwatkins@linuxfoundation.org>
+Submitted-at: Fri, 21 Apr 2023 14:00:50 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/c/releng/python-one-password/+/71612
+Project: releng/python-one-password
+Branch: refs/heads/main
