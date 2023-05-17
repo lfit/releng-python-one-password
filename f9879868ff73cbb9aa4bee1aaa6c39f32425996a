@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db3e1e97_39c9d90c",
+        "filename": "src/python_one_password/credentials.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-05-17T13:31:09Z",
+      "side": 1,
+      "message": "Does this default to true? If so, then then turning off parallel-fetch should be called no-parallel-fetch.",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 6
+      },
+      "revId": "f9879868ff73cbb9aa4bee1aaa6c39f32425996a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
