@@ -355,7 +355,7 @@ def get_credentials_mp(vault: str) -> tuple[str, List[str]]:
     return (vault, vault_credentials)
 
 
-def import_credentials(vaults: Dict[str, str]) -> None:
+def import_credentials(vaults: Dict[str, str], parallel_fetch: bool) -> None:
     """Given a dictionary of vaults, populates the credential database(s)"""
     log.info("Importing credential metadata from 1Password database...")
 
@@ -364,9 +364,18 @@ def import_credentials(vaults: Dict[str, str]) -> None:
     # Use timers to profile performance
     timer = start_timer()
 
-    with multiprocessing.Pool() as pool:
-        # Call the function for each item in parallel
-        for vault, credentials in pool.map(get_credentials_mp, vaults):
+    if parallel_fetch:
+        log.info("Parallel retrieval of credentials is ENABLED")
+        with multiprocessing.Pool() as pool:
+            # Call the function for each item in parallel
+            for vault, credentials in pool.map(get_credentials_mp, vaults):
+                vault_creds_dictionary = {vault: credentials}
+                vault_credentials.append(vault_creds_dictionary)
+
+    # Default behaviour fetches credentials in series
+    else:
+        for vault in vaults:
+            null, credentials = get_credentials_mp(vault)
             vault_creds_dictionary = {vault: credentials}
             vault_credentials.append(vault_creds_dictionary)
 
