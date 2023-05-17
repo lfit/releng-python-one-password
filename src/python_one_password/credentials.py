@@ -46,6 +46,13 @@ def fetch(
         show_default=False,
         help="Enable verbose debug output/logging",
     ),
+    parallel_fetch: bool = typer.Option(
+        True,
+        "--parallel-fetch",
+        "-pf",
+        show_default=False,
+        help="Enables parallel operations (multiprocessing)",
+    ),
     include: Optional[List[str]] = typer.Option(
         ["All"],
         "--include",
@@ -69,7 +76,7 @@ def fetch(
     f.validate_import_data_opts(include, exclude)
     vaults_dictionary = f.populate_vault_json(include, exclude)
     f.show_vault_summary(vaults_dictionary)
-    f.import_credentials(vaults_dictionary)
+    f.import_credentials(vaults_dictionary, parallel_fetch)
     credential_data = f.caching.load_cache("credentials")
     f.credential_summary(credential_data, no_tags, True)
 
