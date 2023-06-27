@@ -19,6 +19,7 @@ import logging
 import logging.handlers
 import sys
 from typing import List
+from typing_extensions import Annotated
 
 # External modules
 import typer

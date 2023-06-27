@@ -18,6 +18,7 @@ __author__ = "Matthew Watkins"
 import logging
 import logging.handlers
 from typing import List, Optional
+from typing_extensions import Annotated
 
 # External modules
 import typer
@@ -46,6 +47,13 @@ def fetch(
         show_default=False,
         help="Enable verbose debug output/logging",
     ),
+    no_parallel: bool = typer.Option(
+        False,
+        "--no-parallel",
+        "-np",
+        show_default=False,
+        help="Disables parallel operations (multiprocessing)",
+    ),
     include: Optional[List[str]] = typer.Option(
         ["All"],
         "--include",
@@ -60,7 +68,7 @@ def fetch(
         envvar="OP_VAULT_EXC",
         help="Excludes the specified vault(s) from processing",
     ),
-    no_tags: bool = typer.Option(
+    hide_tags: bool = typer.Option(
         False, "--no-tags", "-n", help="Hide metadata tags in credential summary/output"
     ),
 ):
@@ -69,9 +77,9 @@ def fetch(
     f.validate_import_data_opts(include, exclude)
     vaults_dictionary = f.populate_vault_json(include, exclude)
     f.show_vault_summary(vaults_dictionary)
-    f.import_credentials(vaults_dictionary)
+    f.import_credentials(vaults_dictionary, no_parallel)
     credential_data = f.caching.load_cache("credentials")
-    f.credential_summary(credential_data, no_tags, True)
+    f.credential_summary(credential_data, hide_tags, True)
 
 
 @app.command()
@@ -100,14 +108,14 @@ def show(
         show_default=False,
         help="Enable verbose debug output/logging",
     ),
-    no_tags: bool = typer.Option(
+    hide_tags: bool = typer.Option(
         False, "--no-tags", "-n", help="Hide metadata tags in credential summary/output"
     ),
 ):
     """Show credentials in current/filtered working set"""
     f.startup_tasks(debug)
     credential_data = caching.load_cache("credentials")
-    f.credential_summary(credential_data, no_tags, False)
+    f.credential_summary(credential_data, hide_tags, False)
 
 
 @app.command()
@@ -119,7 +127,7 @@ def refine(
         show_default=False,
         help="Enable verbose debug output/logging",
     ),
-    no_tags: bool = typer.Option(
+    hide_tags: bool = typer.Option(
         False, "--no-tags", "-n", help="Hide metadata tags in credential summary/output"
     ),
     match: Optional[List[str]] = typer.Option(
@@ -146,7 +154,7 @@ def refine(
     f.startup_tasks(debug)
     f.validate_filter_items_opts(match, reject)
     credential_data = f.filter_credentials(match, reject, ignore_case)
-    f.credential_summary(credential_data, no_tags, True)
+    f.credential_summary(credential_data, hide_tags, True)
     if f.prompt("Update working credential set to selection?"):
         caching.save_cache(credential_data, "credentials")
     else:
