@@ -21,12 +21,18 @@ import typer
 from python_one_password.credentials import app as credentials
 from python_one_password.tags import app as tags
 
+importlib.metadata.version('python_one_password')
+
 # Define command structure with typer module
 app = typer.Typer()
 
 
 # Additional sub-commands
-
+app.add_typer(
+    credentials,
+    name="version",
+    help="Reports the package/release version",
+)
 
 app.add_typer(
     credentials,

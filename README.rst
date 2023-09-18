@@ -188,7 +188,7 @@ any changes::
 
 It is a good idea to update the hooks to the latest version::
 
-``% pre-commit autoupdate``
+    % pre-commit autoupdate
 
 Don't forget to tell your contributors to also install and use pre-commit.
 
