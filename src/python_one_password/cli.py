@@ -26,7 +26,11 @@ app = typer.Typer()
 
 
 # Additional sub-commands
-
+app.add_typer(
+    credentials,
+    name="version",
+    help="Reports the package/release version",
+)
 
 app.add_typer(
     credentials,
