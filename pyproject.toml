@@ -1,9 +1,49 @@
 [build-system]
-# AVOID CHANGING REQUIRES: IT WILL BE UPDATED BY PYSCAFFOLD!
-requires = ["setuptools>=46.1.0", "setuptools_scm[toml]>=5"]
-build-backend = "setuptools.build_meta"
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
 
 [tool.setuptools_scm]
 # For smarter version schemes and other configuration options,
 # check out https://github.com/pypa/setuptools_scm
 version_scheme = "no-guess-dev"
+
+[tool.pdm]
+package-dir = "src"
+
+[project]
+name = "python_one_password"
+version = "0.1.2"
+description = "Imports metadata from 1Password vaults and allows for bulk manipulation of tags"
+authors = [
+    {name = "Matthew Watkins", email = "mwatkins@linuxfoundation.org"},
+]
+dependencies = [
+    "setuptools>=68.2.2",
+    "typer[all]~=0.9.0",
+]
+requires-python = ">=3.9"
+readme = "README.rst"
+license = {text = "Apache-2.0"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+]
+
+[project.urls]
+Homepage = "https://gerrit.linuxfoundation.org/infra/admin/repos/releng/python-one-password,general"
+Source = "https://github.com/lfit/releng-python-one-password"
+Documentation = "https://github.com/lfit/releng-python-one-password#readme"
+Tracker = "https://github.com/lfit/releng-python-one-password/issues"
+Download = "https://github.com/lfit/releng-python-one-password/tags"
+Changelog = "https://gerrit.linuxfoundation.org/infra/q/project:releng/python-one-password"
+
+[project.optional-dependencies]
+testing = [
+    "pytest",
+    "pytest-cov",
+    "setuptools",
+    "typer",
+]
+
+[project.scripts]
+python-one-password = "python_one_password.cli:run"
