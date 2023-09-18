@@ -7,7 +7,8 @@ source = python_one_password
 [paths]
 source =
     src/
-    */site-packages/
+    src/python_one_password
+    tests/
 
 [report]
 # Regexes for lines to exclude from consideration
