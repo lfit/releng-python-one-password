@@ -217,7 +217,7 @@ def match_strings(ignore_case: bool, search_pattern: str, string: str) -> bool:
 
 
 def credential_summary(
-    credential_list: List[Dict], no_tags: bool, prompt_flag: bool
+    credential_list: List[Dict], hide_tags: bool, prompt_flag: bool
 ) -> None:
     """Displays a list/summary of the current working set of credentials"""
 
@@ -233,7 +233,7 @@ def credential_summary(
         name = credential["title"]
         # Tag display might make for messy output and take up excessive screen space
         # We therefore provide an option to suppress them in summary/output
-        if no_tags:
+        if hide_tags:
             log.info("%s	%s", cred_id, name)
             continue
         # Not all credentials have tags, catch the exception
@@ -355,7 +355,7 @@ def get_credentials_mp(vault: str) -> tuple[str, List[str]]:
     return (vault, vault_credentials)
 
 
-def import_credentials(vaults: Dict[str, str]) -> None:
+def import_credentials(vaults: Dict[str, str], no_parallel: bool) -> None:
     """Given a dictionary of vaults, populates the credential database(s)"""
     log.info("Importing credential metadata from 1Password database...")
 
@@ -364,11 +364,20 @@ def import_credentials(vaults: Dict[str, str]) -> None:
     # Use timers to profile performance
     timer = start_timer()
 
-    with multiprocessing.Pool() as pool:
-        # Call the function for each item in parallel
-        for vault, credentials in pool.map(get_credentials_mp, vaults):
+    if no_parallel:
+        # Fetches credentials in series with no multiprocessing
+        log.info("Parallel retrieval of credentials is DISABLED")
+        for vault in vaults:
+            null, credentials = get_credentials_mp(vault)
             vault_creds_dictionary = {vault: credentials}
             vault_credentials.append(vault_creds_dictionary)
+    else:
+        log.info("Parallel retrieval of credentials is ENABLED")
+        with multiprocessing.Pool() as pool:
+            # Call the function for each item in parallel
+            for vault, credentials in pool.map(get_credentials_mp, vaults):
+                vault_creds_dictionary = {vault: credentials}
+                vault_credentials.append(vault_creds_dictionary)
 
     stop_timer(timer)
 
