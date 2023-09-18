@@ -42,11 +42,9 @@ on:
         required: true
         type: string
 
-
 concurrency:
   group: ${{ github.event.inputs.GERRIT_CHANGE_ID || github.run_id }}
   cancel-in-progress: true
-
 
 jobs:
   prepare:
@@ -69,7 +67,7 @@ jobs:
           gerrit-refspec: ${{ inputs.GERRIT_REFSPEC }}
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.8'
+          python-version: '3.9'
       - name: Run static analysis and format checkers
         run: pipx run pre-commit run --all-files --show-diff-on-failure
       - name: Build package distribution files
@@ -92,10 +90,9 @@ jobs:
     strategy:
       matrix:
         python:
-          - "3.8"
-          - "3.9"
-          - "3.10"
-          - "3.11"
+          - '3.9'
+          - '3.10'
+          - '3.11'
         platform:
           - ubuntu-latest
     runs-on: ${{ matrix.platform }}
@@ -103,14 +100,14 @@ jobs:
       - uses: lfit/checkout-gerrit-change-action@v0.3
         with:
           gerrit-refspec: ${{ inputs.GERRIT_REFSPEC }}
-          delay: "0s"
+          delay: '0s'
       - uses: actions/setup-python@v4
         id: setup-python
         with:
           python-version: ${{ matrix.python }}
       - name: Retrieve pre-built distribution files
         uses: actions/download-artifact@v3
-        with: {name: python-distribution-files, path: dist/}
+        with: { name: python-distribution-files, path: dist/ }
       - name: Run tests
         run: >-
           pipx run --python '${{ steps.setup-python.outputs.python-path }}'
@@ -125,7 +122,6 @@ jobs:
           github-token: ${{ secrets.github_token }}
           flag-name: ${{ matrix.platform }} - py${{ matrix.python }}
           parallel: true
-
 
   finalize:
     needs: test
