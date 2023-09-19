@@ -26,8 +26,6 @@ app = typer.Typer()
 
 
 # Additional sub-commands
-
-
 app.add_typer(
     credentials,
     name="credentials",
