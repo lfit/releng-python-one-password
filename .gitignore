@@ -1,6 +1,11 @@
-# Temporary and binary files
-install.sh
-check.sh
+# Temporary and build related files
+.coverage
+coverage.lcov
+node_modules/
+package-lock.json
+package.json
+.pdm-python
+*.env
 *~
 *.py[cod]
 *.so
