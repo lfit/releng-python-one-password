@@ -45,7 +45,7 @@ def load_json_file(filename: str) -> str:
         with open(filename, encoding="utf-8") as open_file:
             data = json.loads(open_file.read())
             log.debug("JSON read from file: %s", filename)
-    except IOError as error:
+    except OSError as error:
         log.error("Error reading JSON from file: %s", filename)
         log.error(error)
         sys.exit(1)
@@ -58,7 +58,7 @@ def save_json_file(json_data: List[str], filename: str):
         with open(filename, "w", encoding="utf-8") as write_file:
             json.dump(json_data, write_file)
             log.debug("JSON written to file: %s", filename)
-    except IOError as error:
+    except OSError as error:
         log.error("Error writing JSON to file: %s", filename)
         log.error(error)
         sys.exit(1)
