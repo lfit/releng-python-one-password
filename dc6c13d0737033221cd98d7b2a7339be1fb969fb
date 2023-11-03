@@ -1,0 +1,261 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ffb6ccb9_3e618035",
+        "filename": ".github/workflows/builds.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-11-03T15:52:17Z",
+      "side": 1,
+      "message": "Since this is a Gerrit based project and we do not presently have a way for PRs to be brought back to Gerrit, this workflow isn\u0027t going to ever be run as PRs in GitHub should not be raised.",
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a13d6c0_302bb7d6",
+        "filename": ".github/workflows/dependencies.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-11-03T15:52:17Z",
+      "side": 1,
+      "message": "This should be `v4`",
+      "range": {
+        "startLine": 24,
+        "startChar": 31,
+        "endLine": 24,
+        "endChar": 33
+      },
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d33085b0_2f52c5ea",
+        "filename": ".github/workflows/dependencies.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-11-03T15:52:17Z",
+      "side": 1,
+      "message": "Good idea, bad methodology as a Gerrit based project should not have PRs raised against it. If they are raised, they should _never_ be merged as they will silently disappear with replication from Gerrit or worse, break replication from Gerrit.",
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a95f9d8_d22a32e5",
+        "filename": ".github/workflows/documentation.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-11-03T15:52:17Z",
+      "side": 1,
+      "message": "PRs are not going to be flowing across this repository since it is Gerrit based",
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "65fe7724_61872318",
+        "filename": ".github/workflows/documentation.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-11-03T15:52:17Z",
+      "side": 1,
+      "message": "This should be `v4`",
+      "range": {
+        "startLine": 23,
+        "startChar": 31,
+        "endLine": 23,
+        "endChar": 33
+      },
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1c406268_7519a854",
+        "filename": ".github/workflows/documentation.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-11-03T15:52:17Z",
+      "side": 1,
+      "message": "This will break with Gerrit replication since replication is a full mirror from Gerrit. That means any branches (even magic ones) that are not in Gerrit will get destroyed during full mirroring operations",
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d8a12f17_7b2579e7",
+        "filename": ".github/workflows/gerrit-verify.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-11-03T15:52:17Z",
+      "side": 1,
+      "message": "You are specifying a default language version of python 3.11 in your .pre-commit file (which you really shouldn\u0027t be doing) but you\u0027re forcing a python 3.9 environment in the validation testing.",
+      "range": {
+        "startLine": 72,
+        "startChar": 27,
+        "endLine": 72,
+        "endChar": 30
+      },
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "77fd2b63_3c4134d3",
+        "filename": ".github/workflows/security.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-11-03T15:52:17Z",
+      "side": 1,
+      "message": "Since this project is Gerrit based, the workflow will essentially never be run. PRs that _are_ run should never get merged as it\u0027s going to cause replication issues.",
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b359a8df_87b4c219",
+        "filename": ".github/workflows/security.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-11-03T15:52:17Z",
+      "side": 1,
+      "message": "This should be `v4`",
+      "range": {
+        "startLine": 26,
+        "startChar": 31,
+        "endLine": 26,
+        "endChar": 33
+      },
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4613009f_072fa8f3",
+        "filename": ".github/workflows/testing.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-11-03T15:52:17Z",
+      "side": 1,
+      "message": "Since this project is Gerrit based this workflow is basically dead since PRs should not be raised. If they are raised, yes it will run, but they should never be merged",
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "596c9c4d_816a513d",
+        "filename": ".github/workflows/testing.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-11-03T15:52:17Z",
+      "side": 1,
+      "message": "This should be `v4`",
+      "range": {
+        "startLine": 21,
+        "startChar": 31,
+        "endLine": 21,
+        "endChar": 33
+      },
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e71f8784_3efbcfcf",
+        "filename": ".pre-commit-config.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-11-03T15:52:17Z",
+      "side": 1,
+      "message": "You should not be specifying a default language value. That can / should be picked up from the environment for python. In particular, in `.github/workflows/gerrit-verify.yaml` on line 72, the only python environment being setup for your pre-commit checks is python 3.9 which is why GHA keeps bombing on you",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 20
+      },
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7f684c6_118c7593",
+        "filename": ".pre-commit-config.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-11-03T15:52:17Z",
+      "side": 1,
+      "message": "You dropped the args for fixing line-endings, is there a reason?",
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
