@@ -18,6 +18,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4715883d_58ced881",
+        "filename": ".github/workflows/builds.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-11-07T14:47:15Z",
+      "side": 1,
+      "message": "Indeed, after submitting this I realised this needed cleaning up. Should have marked it WIP :-o At least with this repo I don\u0027t have the PyTables dependency issues rearing their ugly head and preventing builds on Apple Silicon macOS.",
+      "parentUuid": "ffb6ccb9_3e618035",
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9a13d6c0_302bb7d6",
@@ -31,6 +49,30 @@
       "writtenOn": "2023-11-03T15:52:17Z",
       "side": 1,
       "message": "This should be `v4`",
+      "range": {
+        "startLine": 24,
+        "startChar": 31,
+        "endLine": 24,
+        "endChar": 33
+      },
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ec72d10_81bfe7e8",
+        "filename": ".github/workflows/dependencies.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-11-07T14:47:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a13d6c0_302bb7d6",
       "range": {
         "startLine": 24,
         "startChar": 31,
@@ -58,6 +100,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "18c88b42_d89f2049",
+        "filename": ".github/workflows/dependencies.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-11-07T14:47:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d33085b0_2f52c5ea",
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0a95f9d8_d22a32e5",
@@ -71,6 +131,24 @@
       "writtenOn": "2023-11-03T15:52:17Z",
       "side": 1,
       "message": "PRs are not going to be flowing across this repository since it is Gerrit based",
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93611259_d0fa43c8",
+        "filename": ".github/workflows/documentation.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-11-07T14:47:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0a95f9d8_d22a32e5",
       "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -98,6 +176,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3abd421b_3cfacbc8",
+        "filename": ".github/workflows/documentation.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-11-07T14:47:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "65fe7724_61872318",
+      "range": {
+        "startLine": 23,
+        "startChar": 31,
+        "endLine": 23,
+        "endChar": 33
+      },
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1c406268_7519a854",
@@ -111,6 +213,24 @@
       "writtenOn": "2023-11-03T15:52:17Z",
       "side": 1,
       "message": "This will break with Gerrit replication since replication is a full mirror from Gerrit. That means any branches (even magic ones) that are not in Gerrit will get destroyed during full mirroring operations",
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "065195c8_c994331c",
+        "filename": ".github/workflows/documentation.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-11-07T14:47:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1c406268_7519a854",
       "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -138,6 +258,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6389ec84_90474d97",
+        "filename": ".github/workflows/gerrit-verify.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-11-07T14:47:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d8a12f17_7b2579e7",
+      "range": {
+        "startLine": 72,
+        "startChar": 27,
+        "endLine": 72,
+        "endChar": 30
+      },
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "77fd2b63_3c4134d3",
@@ -151,6 +295,24 @@
       "writtenOn": "2023-11-03T15:52:17Z",
       "side": 1,
       "message": "Since this project is Gerrit based, the workflow will essentially never be run. PRs that _are_ run should never get merged as it\u0027s going to cause replication issues.",
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "613bb6bc_ed71aa6f",
+        "filename": ".github/workflows/security.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-11-07T14:47:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "77fd2b63_3c4134d3",
       "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -178,6 +340,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "855b9c3a_524b2555",
+        "filename": ".github/workflows/security.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-11-07T14:47:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b359a8df_87b4c219",
+      "range": {
+        "startLine": 26,
+        "startChar": 31,
+        "endLine": 26,
+        "endChar": 33
+      },
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4613009f_072fa8f3",
@@ -195,6 +381,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "52f9a271_09045c21",
+        "filename": ".github/workflows/testing.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-11-07T14:47:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4613009f_072fa8f3",
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "596c9c4d_816a513d",
@@ -208,6 +412,30 @@
       "writtenOn": "2023-11-03T15:52:17Z",
       "side": 1,
       "message": "This should be `v4`",
+      "range": {
+        "startLine": 21,
+        "startChar": 31,
+        "endLine": 21,
+        "endChar": 33
+      },
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0b395a9_28a73972",
+        "filename": ".github/workflows/testing.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-11-07T14:47:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "596c9c4d_816a513d",
       "range": {
         "startLine": 21,
         "startChar": 31,
@@ -241,6 +469,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "63f77e11_fedb602d",
+        "filename": ".pre-commit-config.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-11-07T14:47:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e71f8784_3efbcfcf",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 20
+      },
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a7f684c6_118c7593",
@@ -254,6 +506,24 @@
       "writtenOn": "2023-11-03T15:52:17Z",
       "side": 1,
       "message": "You dropped the args for fixing line-endings, is there a reason?",
+      "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5a79175_0969746c",
+        "filename": ".pre-commit-config.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2023-11-07T14:47:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a7f684c6_118c7593",
       "revId": "dc6c13d0737033221cd98d7b2a7339be1fb969fb",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
